@@ -1,12 +1,14 @@
 package assignments;
 
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
 public class ChessGameFrame extends JFrame {
 
-    private JPanel chessboardPanel;
+    private static final long serialVersionUID = 1L;
+	private JPanel chessboardPanel;
     private JLabel[][] chessboardSquares;
     private JPanel statusPanel;
     private JLabel statusLabel;
